@@ -4,10 +4,10 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f7e1e1;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #8f4040;
 }
 
 .input-section {
@@ -32,12 +32,12 @@ input[type="text"] {
     width: 50%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #f19494;
     border-radius: 5px;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #1faccf;
     color: #fff;
     padding: 10px 20px;
     border: none;
