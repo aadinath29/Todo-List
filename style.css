@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #333; /* changed to a dark gray background color */
+    color: #fff; /* changed to a white text color */
 }
 
 .container {
-    max-width: 900px;
+    max-width: 50%;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f7e1e1;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #444; /* changed to a dark gray background color */
+    border: none; /* removed border */
+    box-shadow: none; /* removed box shadow */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +22,9 @@ body {
 }
 
 h1 {
-    color: #8f4040;
+    color: #fff; /* changed to a white text color */
+    font-size: 24px; /* increased font size for better readability */
+    margin-bottom: 10px; /* added margin bottom for better spacing */
 }
 
 .input-section {
@@ -29,44 +32,46 @@ h1 {
 }
 
 input[type="text"] {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #f19494;
-    border-radius: 5px;
+    border: none; /* removed border */
+    border-radius: 0; /* removed border radius */
+    background-color: #555; /* changed to a dark gray background color */
+    color: #fff; /* changed to a white text color */
 }
 
 button {
-    background-color: #1faccf;
-    color: #fff;
+    background-color: #666; /* changed to a dark gray background color */
+    color: #fff; /* changed to a white text color */
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border: none; /* removed border */
+    border-radius: 0; /* removed border radius */
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #3e8e41;
+    background-color: #777; /* changed to a slightly lighter gray background color on hover */
 }
 
 .lists-section {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px; /* added margin top for better spacing */
 }
 
 .list-container {
     width: 45%;
     margin: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #555; /* changed to a dark gray background color */
+    border: none; /* removed border */
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     margin-top: 0;
-    color: #333;
+    color: #fff; /* changed to a white text color */
+    font-size: 18px; /* increased font size for better readability */
 }
 
 #todo-list, #completed-list {
@@ -77,11 +82,9 @@ h2 {
 
 #todo-list li, #completed-list li {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
-    background-color: #fff;
-    border-radius: 5px;
+    border-bottom: 1px solid #666; /* changed to a dark gray border color */
+    background-color: #555; /* changed to a dark gray background color */
     margin-bottom: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #todo-list li:last-child, #completed-list li:last-child {
@@ -90,15 +93,15 @@ h2 {
 
 #todo-list li button, #completed-list li button {
     margin-left: 10px;
-    background-color: #337ab7;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    background-color: #666; /* changed to a dark gray background color */
+    color: #fff; /* changed to a white text color */
+    border: none; /* removed border */
+    border-radius: 0; /* removed border radius */
     cursor: pointer;
 }
 
 #todo-list li button:hover, #completed-list li button:hover {
-    background-color: #23527c;
+    background-color: #777; /* changed to a slightly lighter gray background color on hover */
 }
 
 .done {
